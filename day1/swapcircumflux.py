@@ -39,9 +39,14 @@ a = a//b
 ''' import itertools
 
 gen = iter([1,2,3])
-lst = list(gen) '''
+lst = list(gen)
+
+lst[0],lst[1] = lst[1],lst[0]
+print(lst)
+'''
 
 
 print([x**2 for x in range(1,10+1)if x%2==0])
 
 print([x**2 if x%2==0 else x**3 for x in range(1,10+1)])
+
