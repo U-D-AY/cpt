@@ -1,3 +1,13 @@
+'''
+#number manuplations in python
+1.arm strong
+2.strong number same as krishnamurthy's number
+4.nivens number same as harsads
+6.happy
+7.atomorphic
+8.adam's
+9.magic
+'''
 a = 145
 t = a
 s = 0
