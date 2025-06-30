@@ -9,17 +9,20 @@ print(f'Today date: {datetime.now()}')
 
 #formatted datetime
 formatted = now.strftime("%d-%m-%Y %H:%M:%S")
-print(f"formatted datetime : {formatted}")
+print(f"formatted datetime : {formatted} // {type(formatted)}")
 
 # parsed datetime
 date_str = "26-11-2004 1:15:26"
 parsed = datetime.strptime(date_str, "%d-%m-%Y %H:%M:%S")
-print(parsed)
+print(parsed,"//",type(parsed))
 
 #timedelta
 tomorrow = datetime.now()+timedelta(days=1)
 print(f"Tomorrow: {tomorrow}")
 yesterday = datetime.now()-timedelta(days=1)
 print(f"Yesterday: {yesterday}")
-ftime = now+timedelta(hours=5,minutes=50)
+ftime = datetime.now()+timedelta(hours=5,minutes=50)
 print(f"After 5:50 = {ftime}")
+
+format_12hrs = datetime.now().strftime('%d/%m/%Y %I:%M:%S %p')
+print(format_12hrs)
