@@ -1,0 +1,42 @@
+IO operations/handling
+
+ASCII testfiles-reading
+append char
+ABC
+655557
+65-binary
+66-binary
+67-
+
+functions for opening and closing file.
+
+syntax-
+FileObject = open(filename,access)
+
+acesses modes
+r - deafult mode for opening file in read-only
+rb - opens file in binary formate
+r+ - opens in both reading and writing
+rb+ - open in both reading and writing
+w - opens in writing formate ,creates new file if not avilable
+wb - open in both read and writing
+w+ - reading and writing
+wb+ - open in both reading and writing
+a - open a file in append mode
+ab - apped to binary file
+a+ - Reading and appending a file
+ab+ reading and appending a binary file
+
+fileobj attribute
+fileobj.closed - return true if the file closed and false if not
+fileobj.mode = opening access
+fileobj.name = returns the file name
+
+file methods
+fileno() - file number in your tool
+flush() - clears the write buffers from i/p
+isatty() - returns bollen o/p, file stream is interactive or not
+readline(n) - particular line
+truncate(n) - reallocate the file size byte
+rstrip()
+
