@@ -1,0 +1,14 @@
+Numpy
+matrices - coordiation location
+math funtion statistics/algebra
+
+np.random.rand()- uniform random values
+np.random.randn()- non uniform
+np.dot()
+np.arange()- range of values
+np.array()- create/ delete/ acesses
+np.zeros()/ onces()-  create an array with 0's and 1's
+np.mean()
+np.std()
+np.unique()
+np.linalg.in()
