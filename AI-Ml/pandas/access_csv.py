@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 data = {
-    'Patient_Id' : ['P001', 'P002', "P0003", 'P004', 'P005', 'P006'],
+    'Patient_Id' : ['P001', 'P002', "P003", 'P004', 'P005', 'P006'],
     'Name' : ['Luffy', 'Jin', 'leon', 'Itachi', 'Ichigo', None],
     'Age' : [22, 26, 29, None, 25, 18],
     'Department' : ['Cancer', "Neurology", 'Cardiology', None, 'Cancer', None],
