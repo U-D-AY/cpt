@@ -10,3 +10,12 @@ operations:
 5. grouping of data
 6. marging / joining 
 7. sorting 
+
+Syntax: DataFrame(data)
+df.head(n) first n rows
+df.tail(n) for last n rows
+df.info() summary -df
+df.describe() - statistical summary
+df.shape() - tuple-rows,columns
+df.dtypes() - data type(column)
+df.column() - column name
