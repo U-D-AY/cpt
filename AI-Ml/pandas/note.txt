@@ -1,0 +1,12 @@
+import pandas as pd
+
+1. series (1-d array)
+2. dataframes (2-d array)/ labeling will be on rows and columns
+operations:
+1. reading / writing of data (csv/ json / xls)
+2. inserting of data 
+3. selecting  of data
+4. data manipulation 
+5. grouping of data
+6. marging / joining 
+7. sorting 
