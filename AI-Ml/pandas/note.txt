@@ -19,3 +19,21 @@ df.describe() - statistical summary
 df.shape() - tuple-rows,columns
 df.dtypes() - data type(column)
 df.column() - column name
+
+Data cleaning
+1. Handling Missing data(NaN)
+isna() - Identify missing Value
+fillna() - Speific Value
+dropna() - Delete missing Value
+2. Remove Duplicate Value
+duplicated() - checks duplicates
+drop_duplicates()
+3. Correcting Invalid Data
+12/12/20255 dates, ages, cost(-ve)
+clip()
+4. Strandardizing / Normalizing num/ strings data
+str.lower(), str.upper(), str.strip(), str.replace()
+5. Data convertion
+pd.to_numperics()
+pd.to_datetime()
+errors = 'coerce'

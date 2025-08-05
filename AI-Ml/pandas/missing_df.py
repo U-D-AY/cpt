@@ -1,7 +1,7 @@
 import pandas as pd
  
 try: 
-    df = pd.read_csv('Hospital_data.csv')
+    df = pd.read_csv('Hosipital_data.csv')
     print("\nOriginal values: ")
     print(df)
     
@@ -17,8 +17,11 @@ try:
     df_filled['Department'] = df_filled['Department'].ffill()
     df_filled['Admission_Date'] = df_filled['Admission_Date'].ffill()
     
-    print("\nDataframe after filling by default: ")
-    print(df_filled)
+    print("\nDataframe after filling by default: \n")
+    print(df_filled,"\n")
+    
+    df_filled.to_csv("Hosipital_data_updated0.csv", index=False)
+    print("The file have updated.")
     
 except FileNotFoundError as e:
     print(f"Error: {e}")
