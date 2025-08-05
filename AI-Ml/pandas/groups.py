@@ -1,8 +1,8 @@
 import pandas as pd
 
 try:
-    df = pd.read_csv('Hosipital_data_updated0.csv')
-    print("\nOriginal Hosipital DataFrame")
+    df = pd.read_csv('Hospital_data_updated0.csv')
+    print("\nOriginal Hospital DataFrame")
     print(df)
     
     # groping by department

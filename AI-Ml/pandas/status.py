@@ -1,8 +1,8 @@
 import pandas as pd
 
 try:
-    df = pd.read_csv('Hosipital_data_updated0.csv')
-    print("\nOriginal Hosipital DataFrame")
+    df = pd.read_csv('Hospital_data_updated0.csv')
+    print("\nOriginal Hospital DataFrame")
     print(df)
     
     # Add a status column, based on age
@@ -11,8 +11,8 @@ try:
     print(df)
     
     # saving to csv
-    df.to_csv("Hosipital_data_updated1.csv", index=False)
-    print(f"Modified Datarame saved to 'Hosipital_data_updated1.csv'.")
+    df.to_csv("Hospital_data_updated1.csv", index=False)
+    print(f"Modified Dataframe saved to 'Hospital_data_updated1.csv'.")
     
     
 except FileExistsError as e:

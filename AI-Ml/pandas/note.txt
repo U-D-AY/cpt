@@ -1,14 +1,14 @@
 import pandas as pd
 
 1. series (1-d array)
-2. dataframes (2-d array)/ labeling will be on rows and columns
+2. dataframes (2-d array)/ labelling will be on rows and columns
 operations:
 1. reading / writing of data (csv/ json / xls)
 2. inserting of data 
 3. selecting  of data
 4. data manipulation 
 5. grouping of data
-6. marging / joining 
+6. merging / joining 
 7. sorting 
 
 Syntax: DataFrame(data)
@@ -23,7 +23,7 @@ df.column() - column name
 Data cleaning
 1. Handling Missing data(NaN)
 isna() - Identify missing Value
-fillna() - Speific Value
+fillna() - Specific Value
 dropna() - Delete missing Value
 2. Remove Duplicate Value
 duplicated() - checks duplicates
@@ -31,9 +31,9 @@ drop_duplicates()
 3. Correcting Invalid Data
 12/12/20255 dates, ages, cost(-ve)
 clip()
-4. Strandardizing / Normalizing num/ strings data
+4. Standardizing / Normalizing num/ strings data
 str.lower(), str.upper(), str.strip(), str.replace()
-5. Data convertion
-pd.to_numperics()
+5. Data conversion
+pd.to_numerics()
 pd.to_datetime()
 errors = 'coerce'

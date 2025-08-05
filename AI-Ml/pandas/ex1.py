@@ -1,10 +1,10 @@
 """
-Code elobrates how to filter string data in series based on insensitivity 
+Code elaborates how to filter string data in series based on insensitivity 
 """
 
 import pandas as pd
 
-strings = input("enter 5 strings, space seperated: ").strip().split()
+strings = input("enter 5 strings, space separated: ").strip().split()
 
 substring = input('enter substring: ').strip()
 
@@ -13,7 +13,7 @@ try:
         raise ValueError("Please provide 5 strings only.")
     
     str_series = pd.Series(strings)
-    print("Original Seires: ")
+    print("Original Series: ")
     print(str_series)
     
     filtered_series = str_series[str_series.str.lower().str.contains(substring.lower(),na=False)]

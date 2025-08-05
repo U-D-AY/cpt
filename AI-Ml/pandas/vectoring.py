@@ -7,7 +7,7 @@ try:
         raise ValueError("Give 4 number only!")
     
     series = pd.Series(numbers, index=['a', 'b', 'c', 'd'])
-    print('\nOrginal series:')
+    print('\nOriginal series:')
     print(series)
     
     # Doubling vectors

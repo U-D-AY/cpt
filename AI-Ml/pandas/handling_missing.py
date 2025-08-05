@@ -17,7 +17,7 @@ print(f"The series after filling NaN's with 0:\n{filled_series}\n")
 # froward fill
 print(f"The series after filling NaN's with froward fill:\n{series.ffill()}\n")
 
-# Backwors fill
+# Backward fill
 print(f"The series after filling NaN's with backward fill:\n{series.bfill()}\n")
 
 # if we want delete the NaN's then

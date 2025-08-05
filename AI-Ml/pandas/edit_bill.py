@@ -1,9 +1,9 @@
 import pandas as pd
 
 try:
-    df = pd.read_csv("hosipital_data.csv")
+    df = pd.read_csv("hospital_data.csv")
     series = df["Bill"]
-    print('\n Original Hosipital Bill: ')
+    print('\n Original Hospital Bill: ')
     print(series)
 
     # User manual Input
@@ -22,8 +22,8 @@ try:
     
     # Update DataFrame and Save
     df['Bill'] = series
-    df.to_csv('hosipital_data.csv',index = False)
-    print("Updated csv saved to hosipiltal")
+    df.to_csv('hospital_data.csv',index = False)
+    print("Updated csv saved to hospital")
         
     
     
