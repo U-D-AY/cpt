@@ -1,0 +1,14 @@
+plot() - keywords
+color() - linline - 'red'/#ccc000
+linestyle - line type : '-', '--', ':', '.', '.-', ':', 'None', ' ', '', 'solid', 'dashed', 'dashdot', 'dotted'
+marker - symbol - 'o' 
+marker size - 6, 8, 9, 10
+marker edge color - 'black'
+lable = legend - line1, line5
+
+plt.title() - plot title (heading)
+plt.xlable(), ylable() axis lables
+plt.grid() - background
+plt.legend() - mwnu
+plt.figure()
+plt.gca()
